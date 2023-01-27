@@ -1,0 +1,410 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 1200px;
+  margin: 0 auto;
+}
+  header{
+    width: 1200px;
+  }
+
+      h1 {
+        color:darkturquoise;
+        background: beige;
+        background-image: url(background-1.jpg);
+        background-size: 800px;
+        width: 1152px;
+        border: 4px white dashed;
+        border-radius: 20px;
+        padding: 20px;
+        text-align: center;
+        word-spacing: 20px;
+        font-family: sans-serif;
+        text-shadow: 2px 2px 3px purple, 5px 5px 3px pink;
+      }
+
+      h3 {
+        color: powderblue;
+        background: beige;
+        border: 2px pink dotted;
+        border-radius: 20px;
+        margin: 20px;
+        padding: 10px;
+        font-variant: small-caps;
+      }
+
+
+  nav {
+    width: 1200px;
+  }
+
+      nav li {
+        float: left;
+        list-style: none;
+        background: beige;
+        margin: 10px;
+        padding: 10px;
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: center;
+        border: 2px pink dashed;
+        transition: background 1s;
+      }
+
+      nav li:hover {
+        background: pink;
+        color: white;
+        border: 2px white dotted;
+      }
+
+      nav a {
+          color: hotpink;
+      }
+
+  #center {}
+    section {
+      width: 800px;
+      float: left;
+      padding: 20px;
+    }
+
+    article {
+      margin: 20px;
+      width: 750px;
+      color: darkcyan;
+      font-family: sans-serif;
+    }
+
+    article p {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+
+      -webkit-column-gap: 50px;
+      -moz-column-gap: 50px;
+      column-gap: 50px;
+
+      -webkit-column-rule-style: dotted;
+      -moz-column-rule-style: dotted;
+      column-rule-style: dotted;
+    }
+
+      .title {
+        background: darkturquoise;
+        padding: 20px 20px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 20px;
+      }
+
+      figcaption {
+        padding: 20px;
+        color: darkcyan;
+        color: silver;
+        font-style: italic;
+      }
+
+      figure {
+        align-items: center;
+        float: left;
+        padding:20px;
+      }
+
+    aside {
+      width: 330px;
+      height: 300px;
+      float: left;
+      padding: 20px 0px;
+    }
+
+      aside h2 {
+        text-align: center;
+      }
+      #latest_posts_group {
+        margin: 10px 0px;
+      }
+        .latest_posts {
+          padding:10px 0px;
+          margin: 10px 0px;
+          background: DarkSeaGreen;
+          border: 2px white dotted;
+          color: white;
+          text-align: center;
+        }
+
+        #newsletter {
+        }
+
+        .newsletter_head {
+          color: silver;
+          background: beige;
+          border: 3px pink dashed;
+          text-align: center;
+          letter-spacing: 5px;
+          font-family: sans-serif;
+        }
+
+  footer{
+    color: white;
+    background: pink;
+    width: 1200px;
+    padding: 20px 0px;
+    text-align: center;
+    float: left;
+  }
+
+    #sec_para {
+        color: white;
+        background-color: pink;
+        margin: 30px;
+        width: 400px;
+        height: 40px;
+        padding: 20px;
+        border: 2px white dashed;
+    }
+
+    a:link {
+      color:silver;
+    }
+
+    a:visited {
+      color:cadetblue;
+    }
+
+    a:hover {
+      color: powderblue;
+    }
+    a:active {
+      color: lavender;
+    }
+
+    p {
+      color: cadetblue;
+      font-family: sans-serif;
+      padding: 10px;
+      margin: 20px;
+    }
+
+    #main_div {
+      background: silver;
+      padding: 30px;
+      border: 5px lightblue dashed;
+      height: 400px;
+      width: 600px;
+      background-image: url(background-1.jpg);
+      transition: width 3s;
+    }
+      #main_div:hover {
+        background-image: url(background-2.jpg);
+        width: 650px;
+      }
+
+
+    #div1 {
+      color: white;
+      background-color: lavender;
+      margin: 10px 0px;
+      width: 330px;
+      padding: 10px;
+      border: 5px beige solid;
+      text-align: center;
+    }
+    #div2 {
+      color: white;
+      background-color: lightpink;
+      width: 300px;
+      margin: 30px;
+      margin-left:0;
+      padding: 10px;
+      border: 5px beige dotted;
+      text-align: center;
+      float: right;
+    }
+    #div3 {
+      color: white;
+      background-color: powderblue;
+      width: 300px;
+      height: 60px;
+      margin: 30px;
+      padding: 10px;
+      border: 5px beige dashed;
+      text-align: center;
+      float: left;
+    }
+
+    table {
+      width: 600px;
+      margin: 20px;
+      padding: 10px;
+      color: white;
+      background: beige;
+      border: 4px pink dashed;
+    }
+
+    th {
+      background: lightblue;
+      border-top: 2px lavender dotted;
+      padding: 10px;
+    }
+
+    tr {
+      background: lavender;
+    }
+
+    td {
+      border-top: 2px lightpink dotted;
+      padding: 10px;
+      text-align: center;
+      transition: background 1s;
+    }
+
+    td:hover {
+      background: white;
+      color: pink;
+    }
+
+    #ul1{
+      list-style: inside;
+      list-style-image: url(cupcake.png);
+    }
+
+    #ul1 li{
+      font-family: sans-serif;
+      color: hotpink;
+    }
+
+    #ul2{
+      list-style: inside;
+      list-style-image: url(catface.png);
+    }
+
+    #ul2 li{
+      font-family: sans-serif;
+      color: lightblue;
+    }
+
+    form {
+      background: lightblue;
+      width: 650px;
+      padding: 60px;
+      border: 10px beige dotted;
+    }
+
+      .form-group {
+      box-sizing: border-box;
+      }
+
+      .form-group input{
+        display: block;
+      }
+
+    input[type=text], input[type=color], input[type=url], input[type=type], input[type=range], input[type=email], input[type=number], input[type=date], input[type=time], select {
+      color: hotpink;
+      width: 100%;
+      height: 20px;
+      align: center;
+      border: 1px pink solid;
+      box-shadow: inset 2px 2px 2px silver;
+    }
+
+    input[type=submit] {
+      color: white;
+      background: powderblue;
+      border: 2px white dotted;
+      width: 100%;
+    }
+
+      input[type=submit]:hover {
+        color: white;
+        background: pink;
+        border: 2px white dotted;
+        width: 100%;
+      }
+
+    input[type=text] {
+      color: hotpink;
+      align: center;
+      border: 1px pink solid;
+      width: 360px;
+      margin: 10px 0px;
+    }
+
+    textarea {
+      resize: none;
+      width: 300px;
+      height: 50px;
+      align: center;
+      border: 1px solid pink;
+      box-shadow: inset 2px 2px 2px silver;
+    }
+
+    input[type=text]:focus {
+      color: white;
+      background: pink;
+    }
+    input[type=type]:focus {
+      color: white;
+      background: pink;
+    }
+
+    h2 {
+      color: white;
+      background: beige;
+      border: 3px pink dashed;
+      border-radius: 20px;
+      text-align: center;
+      letter-spacing: 5px;
+      font-family: sans-serif;
+      margin: 20px;
+      animation-name: anim1;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+progress {
+  margin: 20px;
+  width: 300px;
+  height: 50px;
+}
+
+details {
+  background: pink;
+  color: white;
+  font-family: sans-serif;
+  padding: 20px;
+  margin: 20px;
+  border: 5px silver dashed;
+}
+#vinyl {
+  background: radial-gradient(hotpink, black);
+  height: 400px;
+  width: 400px;
+  border-radius: 200px;
+  margin: 20px;
+  box-shadow: 5px 5px 3px gray;
+}
+#vinyl-hole {
+  background: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 5px gray inset;
+  margin: 10px;
+  transform: translate(50px);
+}
+
+/*keyframes*/
+
+@keyframes anim1 {
+  0% {background: beige;}
+  25% {background: pink;}
+  50% {background: lightgreen;}
+  75% {background: lightblue;}
+  100% {background: beige;}
+}
