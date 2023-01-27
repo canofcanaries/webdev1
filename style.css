@@ -382,12 +382,14 @@ details {
   border: 5px silver dashed;
 }
 #vinyl {
-  background: radial-gradient(hotpink, black);
+  z-index: 1px;
+  background: radial-gradient(#0ce55e, black);
   height: 400px;
   width: 400px;
   border-radius: 200px;
   margin: 20px;
   box-shadow: 5px 5px 3px gray;
+  position: static;
 }
 #vinyl-hole {
   background: white;
@@ -395,8 +397,12 @@ details {
   width: 40px;
   border-radius: 20px;
   box-shadow: 0 4px 5px gray inset;
-  margin: 10px;
-  transform: translate(50px);
+  position: relative;
+  left: 200px;
+  bottom: 240px;
+  z-index: 1000px;
+
+
 }
 
 /*keyframes*/
